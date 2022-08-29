@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022
 {
-    internal class Circle
+    public class Age
     {
-        double radius;
-        public Circle(double radius)
+        int age;
+        public Age(int age)
         {
-            this.radius = radius;
+            this.age = age;
         }
-        public double area()
+        public int PrintAge()
         {
-            return Math.PI * radius * radius;
+            return age;
         }
-
     }
-
 }
